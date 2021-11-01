@@ -5,13 +5,13 @@ $config = array();
 
 if(ENVIRONMENT == 'development') {
     define("BASE_URL", "http://bonieky.pc/ead/");
-    $config['dbname'] = 'bonieky_estrutura_mvc';
+    $config['dbname'] = 'bonieky_ead';
     $config['host'] = 'bonieky.pc';
     $config['dbuser'] = 'root';
     $config['dbpass'] = '';
 } else {
     define("BASE_URL", "http://meusite.com.br/");
-    $config['dbname'] = 'bonieky_estrutura_mvc';
+    $config['dbname'] = 'bonieky_ead';
     $config['host'] = 'bonieky.pc';
     $config['dbuser'] = 'root';
     $config['dbpass'] = '';
